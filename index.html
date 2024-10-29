@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8" />
+	<title>DOM_JS. Считываем информацию из DOM</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+		crossorigin="anonymous"></script>
+	<style>
+		div {
+			margin-left: 300px;
+			margin-right: 300px;
+		}
+
+		ul {
+			justify-content: center;
+		}
+	</style>
+</head>
+
+<body>
+
+	<div align="center">
+		<ul class="nav nav-tabs">
+			<li class="nav-item">
+				<a class="nav-link active" href="index.html">Задание 1</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="change_to_latin.html">Задание 2</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="task.html">Задание 3</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="">Задание 4</a>
+			</li>
+		</ul>
+	</div>
+
+	<div align="center">
+		<h1>Российская Федерация</h1>
+		<p>Паспорт выдан:__________________<b>МВД ПО РЕСПУБЛИКЕ ТАТАРСТАН</b>________________________________________
+		</p>
+		<p>____________________________________________________________________________________________________________________
+		</p>
+		<p>____________________________________________________________________________________________________________________
+		</p>
+		<p>Дата выдачи______________<b>14.02.2000</b>_______________Код
+			подразделения______________<b>145-238</b>_______________</p>
+		<p>____________________________________________________________________________________________________________________
+		</p><br>
+		<p>______________________________________________________________________________Личный
+			код________________________</p>
+		<p>_______________________________________________________________________________Подпись___________________________
+		</p>
+	</div><br><br>
+
+	<div align="right">
+		<img align="left" src="img/me.jpg" width="200">
+		<p>Фамилия___________________<b>Башмаков</b>______________________</p>
+		<p>_______________________________________________________________</p>
+		<p>Имя__________________________<b>Амир</b>__________________________</p>
+		<p>Отчество___________________<b>Cаидович</b>_______________________</p>
+		<p>Пол_____<b>МУЖ.</b>_____Дата Рождения_______<b>29.04.2005</b>______</p>
+		<p>Место рождения_______________<b>г. Москва</b> __________________</p>
+		<p>_______________________________________________________________</p>
+		<p>_______________________________________________________________</p>
+		<p align="right" id="for_click"><button>Получить информацию</button> </p>
+		<a align="right" href="img/screen.png">Скриншот инструментов разработчика</a>
+	</div>
+
+</body>
+<script src="get_data.js"></script>
+
+</html>
