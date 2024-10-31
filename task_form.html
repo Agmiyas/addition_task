@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Решение алгоритмической задачи</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <style>
+        div {
+            margin-left: 300px;
+            margin-right: 300px;
+        }
+
+        ul {
+            justify-content: center;
+        }
+    </style>
+</head>
+<!-- 1014. Даны вещественные положительные числа a, b, c, d. Выясните, может ли
+прямоугольник со сторонами a, b уместиться внутри прямоугольника со сторонами c, d так,
+чтобы каждая сторона внутреннего прямоугольника была
+параллельна или перпендикулярна стороне внешнего прямоугольника. -->
+
+<body>
+
+    <div align="center">
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Задание 1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="change_to_latin.html">Задание 2</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="task.html">Задание 3</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="task_form.html">Задание 4</a>
+            </li>
+        </ul>
+    </div>
+
+    <div>
+        <h3 align="center">Решение алгоритмической задачи</h3>
+
+        <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+            <ul>
+                <li>Для поисковика:<input name="q" value="search"></li>
+                <li>Формулировка задачи<br>
+                    <textarea cols="60" rows="4" id="task"
+                        name="formulation">Даны вещественные положительные числа a, b, c, d. Выясните, может ли прямоугольник со сторонами a, b уместиться внутри прямоугольника со сторонами c, d так, чтобы каждая сторона внутреннего прямоугольника была параллельна или перпендикулярна стороне внешнего прямоугольника</textarea></li>
+                <li>Значение A: <input id="a" name="a" type="text" value="10"></li>
+                <li>Значение B: <input id="b" name="b" type="number" value="20"></li>
+                <li>Значение B: <input id="c" name="c" type="number" value="30"></li>
+                <li>Значение B: <input id="d" name="d" type="number" value="40"></li>
+                <li>Результат решения задачи: <input id="result" name="result" value="не определен"></li>
+                <li>действие 1: <input id="verify" type="button" value="Проверить"></li>
+                <li>действие 2: <input id="send" type="button" value="Отправить"></li>
+            </ul>
+        </form>
+    </div>
+</body>
+<script src="task_form.js"></script>
+</html>
